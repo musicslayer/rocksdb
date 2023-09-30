@@ -1,6 +1,5 @@
 # rocksdb
-Enhanced version of https://github.com/Level/rocksdb that patches "deps/rocksdb/rocksdb/utilities/transactions/lock/range/range_tree/lib/portability
-/toku_time.h" so this can be built on more ARM devices.
+Enhanced version of https://github.com/Level/rocksdb that patches "deps/rocksdb/rocksdb/utilities/transactions/lock/range/range_tree/lib/portability/toku_time.h" so this can be built on more ARM devices.
 
 ```
 static inline tokutime_t toku_time_now(void) {
